@@ -6,7 +6,7 @@ from aiogram.client.session.aiohttp import AiohttpSession
 
 from config.config import Config, load_config
 from handlers import commands, game, buttons, unknown
-from logger.setup import setup_logging, get_logger, user_log_info
+from logger.setup import setup_logging, get_logger
 
 async def main() -> None:
     config: Config = load_config()
