@@ -1,4 +1,3 @@
-# utils/user_data.py
 from dataclasses import dataclass, field
 from typing import Dict
 
@@ -6,8 +5,8 @@ from typing import Dict
 class CurrentGame:
     """Текущее состояние игры"""
     game_state: bool = False
-    user_score: int = 0      # ← добавляем
-    bot_score: int = 0       # ← добавляем
+    user_score: int = 0      
+    bot_score: int = 0       
 
 @dataclass
 class UserStats:
