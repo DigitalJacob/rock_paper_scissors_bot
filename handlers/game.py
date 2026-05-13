@@ -40,11 +40,13 @@ async def finish_match(message: Message, user_id: int, result: str,
 
     # Выбираем сообщение
     final_message = MATCH_WIN_MESSAGE if result == 'win' else MATCH_LOSE_MESSAGE
+    win_animation = "5046509860389126442" if result == 'win' else None
     score_info = f"\n\n📊 Финальный счёт: {user_score} : {bot_score}"
 
     await message.answer(
         text=f"{response}\n\n{final_message}{score_info}",
-        reply_markup=get_start_keyboard()
+        reply_markup=get_start_keyboard(),
+        message_effect_id=win_animation,
     )
 
 @router.message(F.text.in_(GAME_OPTIONS))
