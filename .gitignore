@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# Логи
+*.log
+bot.log
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Файлы с секретами
+.env
+*.env
+
+# Системные файлы macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Файлы типизации
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
