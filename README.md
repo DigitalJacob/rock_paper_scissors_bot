@@ -37,20 +37,24 @@ A feature-rich Telegram bot for playing the classic Rock Paper Scissors game wit
 1. Clone the repository:
 ```bash
 git clone git@github.com:akovveretin/rock-paper-scissors-bot.git
-cd rock-paper-scissors-bot```
+cd rock-paper-scissors-bot
+```
 
 2. Create and activate virtual environment:
 ```bash
 python -m venv .venv
-source .venv/bin/activate```
+source .venv/bin/activate
+```
 
 3. Install dependencies:
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 4. Configure environment variables:
 ```bash
-cp .env.example .env```
+cp .env.example .env
+```
 
 Then edit .env and replace the example values with your own:
 
@@ -62,7 +66,8 @@ LOG_LEVEL — DEBUG for development, INFO for production
 
 5. Run the bot:
 ```bash
-python main.py```
+python main.py
+```
 
 ## Project Structure
 
