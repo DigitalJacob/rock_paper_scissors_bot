@@ -40,7 +40,7 @@ async def finish_match(message: Message, user_id: int, result: str,
 
     # Выбираем сообщение
     final_message = MATCH_WIN_MESSAGE if result == 'win' else MATCH_LOSE_MESSAGE
-    score_info = f"\n\n📊 *Финальный счёт:* {user_score} : {bot_score}"
+    score_info = f"\n\n📊 Финальный счёт: {user_score} : {bot_score}"
 
     await message.answer(
         text=f"{response}\n\n{final_message}{score_info}",
