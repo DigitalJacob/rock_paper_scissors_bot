@@ -71,16 +71,17 @@ python main.py
 
 ## Project Structure
 
-rock_paper_scissors_bot/
-├── config/              # Configuration management
-├── handlers/            # Message handlers
-├── keyboards/           # Reply keyboards
-├── lexicon/             # Text messages
-├── logger/              # Logging setup
-├── services/            # Business logic
-├── storage/             # User data storage
-├── main.py              # Entry point
-└── requirements.txt     # Dependencies
+| Path | Description |
+|------|-------------|
+| `config/` | Configuration management |
+| `handlers/` | Message handlers |
+| `keyboards/` | Reply keyboards |
+| `lexicon/` | Text messages |
+| `logger/` | Logging setup |
+| `services/` | Business logic |
+| `storage/` | User data storage |
+| `main.py` | Entry point |
+| `requirements.txt` | Dependencies |
 
 ## Licence
 
